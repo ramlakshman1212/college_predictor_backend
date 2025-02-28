@@ -33,11 +33,12 @@ def populate_colleges():
 
     # File paths for Excel data
     file_paths = [
-        r"C:\Users\manoj\Prodigy_Infotech_Internship\College predictor\clg predictor 3.0\college-predictor\backend\static\college_data\Round1.xlsx",
-        r"C:\Users\manoj\Prodigy_Infotech_Internship\College predictor\clg predictor 3.0\college-predictor\backend\static\college_data\Round2.xlsx",
-        r"C:\Users\manoj\Prodigy_Infotech_Internship\College predictor\clg predictor 3.0\college-predictor\backend\static\college_data\Round3.xlsx",
-        r"C:\Users\manoj\Prodigy_Infotech_Internship\College predictor\clg predictor 3.0\college-predictor\backend\static\college_data\college_location.xlsx"
-    ]
+    r"D:\COUNSELING PROJRCT\backend\static\college_data\Round1.xlsx",
+    r"D:\COUNSELING PROJRCT\backend\static\college_data\Round2.xlsx",
+    r"D:\COUNSELING PROJRCT\backend\static\college_data\Round3.xlsx",
+    r"D:\COUNSELING PROJRCT\backend\static\college_data\college_location.xlsx"
+]
+
 
     try:
         for file_path in file_paths:
